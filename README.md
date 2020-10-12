@@ -16,7 +16,7 @@ int main()
 }
 ```
 
-### Step by step
+### step by step
 
 1. Preprocessing: express directives(#include, #define, #if/#ifdef/#ifndef/...) and delete comments
 
