@@ -39,5 +39,23 @@ int main()
 
     `$ gcc -v HelloWorld.c -o HelloWorld`
 
+# `for`
+```C
+    /*
+     * 1 * 1 =  1
+     * 1 * 2 =  2   2 * 2 =  4
+     * ...
+     * 1 * 9 =  9   2 * 9 = 18   ...   9 * 9 = 81
+     *
+     */
+    for(int row = 1; row < 10; row++)
+    {
+        for(int col = 1; col < 10; col++)
+            if(col <= row)
+                printf("%d * %d = %2d  ", col, row, col * row);
+        printf("\n");
+    }
+```
+
 # Reference && Resource
 1. [GCC Compilation Process](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-1.7)
